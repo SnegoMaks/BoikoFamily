@@ -1,20 +1,23 @@
-.title{
-    color:yellow ;
-    background-color: blue;
+.title {
+  color: yellow;
+  background-color: blue;
 }
-a{
-text-decoration: none;
+a {
+  text-decoration: none;
 }
-.logo{
-    font-size=80px;
+.logo {
+  font-size: 80px;
 }
-.logo-a{
-color: blue;
-font-size: 60px;
+.logo-a {
+  color: blue;
+  font-size: 60px;
 }
-.logo-b{
-    color: yellow;
+.logo-b {
+  color: yellow;
 }
-header{
-    background-color: aqua;
+header {
+  background-color: aqua;
+}
+.ass-baz:nth-child(2n) {
+  color: red;
 }
