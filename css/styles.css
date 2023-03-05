@@ -1,2 +1,32 @@
 @media screen and (max-width: 768px) {
+  .welcome-complex__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.12;
+  }
+  .welcome-complex__img {
+    width: 375px;
+  }
+}
+@media screen and (max-width: 1439px) {
+  .welcome-complex__text-1 {
+    display: block;
+    max-width: 366px;
+    max-height: 125px;
+  }
+}
+.welcome-complex__title {
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.welcome-complex__p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #000000;
 }
