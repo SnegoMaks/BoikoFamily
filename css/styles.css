@@ -5,14 +5,22 @@
     line-height: 1.12;
   }
   .welcome-complex__img {
-    width: 375px;
+    max-width: 375px;
+  }
+  .welcome-complex__text-2 {
+    width: 335px;
+    height: 125px;
   }
 }
 @media screen and (max-width: 1439px) {
   .welcome-complex__text-1 {
     display: block;
-    max-width: 366px;
-    max-height: 125px;
+    width: 306px;
+    height: 72px;
+  }
+  .welcome-complex__text-2 {
+    width: 335px;
+    height: 125px;
   }
 }
 .welcome-complex__title {
