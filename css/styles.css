@@ -7,20 +7,48 @@
   .welcome-complex__img {
     max-width: 375px;
   }
-  .welcome-complex__text-2 {
+
+  .welcome-complex {
     width: 335px;
-    height: 125px;
+    height: 833px;
+  }
+  .welcome-complex__info {
+    width: 704px;
+    height: 284px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .welcome-complex {
+    width: 704px;
+    height: 923px;
+  }
+  .welcome-complex__info {
+    width: 704px;
+    height: 284px;
   }
 }
 @media screen and (max-width: 1439px) {
-  .welcome-complex__text-1 {
-    display: block;
-    width: 306px;
-    height: 72px;
+  .welcome-complex {
+    width: 704px;
+    height: 923px;
   }
-  .welcome-complex__text-2 {
-    width: 335px;
-    height: 125px;
+  .welcome-complex__info {
+    width: 704px;
+    height: 284px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .welcome-complex__text {
+    width: 434px;
+    height: 599px;
+  }
+  .welcome-complex {
+    width: 1240px;
+    height: 599px;
+  }
+  .welcome-complex__info {
+    width: 737px;
+    height: 599px;
   }
 }
 .welcome-complex__title {
