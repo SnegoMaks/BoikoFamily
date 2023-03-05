@@ -1,23 +1,2 @@
-.title {
-  color: yellow;
-  background-color: blue;
-}
-a {
-  text-decoration: none;
-}
-.logo {
-  font-size: 80px;
-}
-.logo-a {
-  color: blue;
-  font-size: 60px;
-}
-.logo-b {
-  color: yellow;
-}
-header {
-  background-color: aqua;
-}
-.ass-baz:nth-child(4n + 2) {
-  color: red;
+@media screen and (max-width: 768px) {
 }
