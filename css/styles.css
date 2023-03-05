@@ -9,12 +9,15 @@
   }
 
   .welcome-complex {
-    width: 335px;
+    max-width: 335px;
     height: 833px;
   }
   .welcome-complex__info {
     width: 704px;
     height: 284px;
+  }
+  .welcome-complex__p {
+    max-width: 335px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
